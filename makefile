@@ -5,3 +5,9 @@ dev:
 
 tidy:
 	go mod tidy
+
+push:
+	git push origin dev
+
+pr:
+	gh pr create --web -B staging
